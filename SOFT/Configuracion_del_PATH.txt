@@ -1,0 +1,183 @@
+
+PARA COLOCAR EN EL PATH
+
+SYSTEMPROPERTIESADVANCED
+
+C:\prg\npp.8.7.9.portable.x64
+
+C:\prg\PortableGit\bin
+
+C:\prg\7-Zip
+
+C:\prg\wxWidgets-3.2.7\lib\gcc1220_x64_dll
+
+C:\prg\gvim_9.1.0_x64_signed\vim\vim91
+
+C:\prg\nvim-win64\bin
+
+C:\prg\gnuplot\bin
+
+C:\prg\SumatraPDF-3.5.2-64
+
+C:\prg\nomacs-3.16.1709
+
+C:\prg\XnViewMP
+
+C:\prg\winlibs-x86_64\mingw64\bin
+
+C:\prg\gsl-2.8\bin
+
+C:\prg\gsl-2.8\include\gsl
+
+C:\prg\gsl-2.8\lib
+
+C:\prg\eigen-3.4.0
+
+C:\prg\cmake-4.0.0-windows-x86_64\bin
+
+C:\prg\dlib-19.24\dlib
+
+C:\prg\dlib-19.24\build
+
+C:\prg\mlpack\Sources\include
+
+C:\prg\mlpack\Sources\lib
+
+
+
+REFERENCIAS
+
+Todos los archivos descargados fueron pensados en la arquitectura de 64 bits
+y de preferencia en ediciones portables y/o precompiladas para poder los instalar en la
+carpeta C:\prg   (Programas)
+
+
+
+OpenAI(2025). ChatGPT.(Respuestas a consultas Informáticas). https://chat.openai.com/
+
+
+
+7-Zip. 7-Zip is a file archiver with a high compression ratio.
+https://www.7-zip.org/
+
+Git.  Download for windows.
+https://git-scm.com/downloads/win
+
+CMake: A Powerful Software Build System
+https://cmake.org/download/
+
+
+NOTEPAD++  (EDITOR)
+https://notepad-plus-plus.org/
+
+VIM  (EDITOR)
+https://www.vim.org/download.php
+
+NeoVIM (EDITOR nvim)
+Nvim development (prerelease) build
+https://github.com/neovim/neovim/releases
+https://neovim.io/
+
+NeoVIM solicitada la libreria vcruntime140.dll.
+https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
+
+
+
+
+
+wxWIDGETS. Cross-plataform GUI library
+https://www.wxwidgets.org/downloads/
+
+GNUPLOT 
+http://www.gnuplot.info/
+gp602-win64-mingw.zip
+https://sourceforge.net/projects/gnuplot/files/gnuplot/6.0.2/
+
+Sumatra PDF. 
+PDF, eBook (epub, mobi), comic book (cbz/cbr), DjVu, PS, CHM, image viewer for Windows.
+Fast, small, packed with features, customizable, free.
+https://www.sumatrapdfreader.org/free-pdf-reader
+
+nomacs - Image Lounge nomacs is a free, open source image viewer, 
+which supports multiple platforms. You can use it for viewing all common 
+image formats including RAW and psd images. https://nomacs.org/
+
+XnView. Image Viewer
+Image resizer, batch image converter and more
+Discover a wide range of awesome professional free applications.
+https://www.xnview.com/en/
+
+
+
+WinLibs standalone build of GCC and MinGW-w64 for Windows
+
+winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3.7z
+
+https://winlibs.com/
+
+
+
+
+
+DLIB C++ Library 
+(Esta libreria se tubo que compilar con la ayuda de cmake pues
+no se encotro binarios)
+Dlib is a modern C++ toolkit containing machine learning algorithms 
+and tools for creating complex software in C++ to solve real world problems. 
+It is used in both industry and academia in a wide range of domains including 
+robotics, embedded devices, mobile phones, and large high performance computing environments. 
+https://dlib.net/
+
+
+CON CMAKE Y WINLIBS INSTALADO SE COMPILA DLIBS EN EL TERMINAL CMD ASI:
+
+cd C:\prg\dlib-19.24
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+mingw32-make
+
+
+Eigen is a C++ template library for linear algebra: 
+matrices, vectors, numerical solvers, and related algorithms.
+https://eigen.tuxfamily.org/index.php?title=Main_Page
+
+GSL - GNU Scientific Library
+https://www.gnu.org/software/gsl/
+https://github.com/hariseldon99/GSL-WIN64/releases
+
+
+mlpack.  fast, header-only C++ machine learning library
+with bindings to Python, Julia, R, Go, and the command-line
+https://www.mlpack.org/download.html
+
+(ARMADILLO Y BOOST se necesitan para compilar MLPACK, 
+pero como no se compilo mlpack ya que se uso
+el binario  mlpack-4.5.1.msi
+no fue necesario instalar Armadillo ni boost)
+
+por si acaso se adjunta los enlaces: 
+
+Armadillo
+C++ library for linear algebra & scientific computing
+https://arma.sourceforge.net/download.html
+
+Boost C++ Libraries
+https://www.boost.org/
+
+
+
+Atentamente,
+
+OSCAR NÚÑEZ MORI
+
+ABRIL 2025, JAEN PERÚ.
+
+
+
+
+
+
+
+
+
